@@ -1,11 +1,11 @@
-var express = require('express'),
-    app = express();
+var express = require('express'), //var object to the express model
+    app = express();              //create an instance to the app
 
-app.get('/', function(req, res){
+app.get('/', function(req, res){ //all get requests with the "/" URL
     res.send('Hello World');
 });
 
-app.get('*', function(req, res){
+app.get('*', function(req, res){ //"*" means any route that was not handled by a previous handler
     res.send('Page Not Found', 404);
 });
 
