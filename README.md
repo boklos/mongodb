@@ -1,2 +1,2 @@
 # mongodb
-In each branch, i have a micro project using node.js and Mongodb
+importing a reddit JSON, and inserting it in a new collection in my database in Mongodb
