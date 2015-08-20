@@ -1,0 +1,9 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "description": "Blog Project for M101JS",
+  "main": "app.js",
+  "dependencies": {
+    "mongodb": "~1.4.34"
+  }
+}
